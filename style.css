@@ -66,6 +66,13 @@
 
   }
 
+
+  #multibtns:hover {
+    background-color:#6851FF;
+    color: white;
+  }
+  
+
   #bg-img {
     background-image: url("./artwork.png");
     background-size: cover;
@@ -128,8 +135,7 @@ display: flex;
   }
 
 
-  @media (max-width: 992px) { /* For large screens */
-    /* Your CSS here */
+  @media (max-width: 992px) { 
 
     .imgBanner{
 
@@ -139,19 +145,7 @@ display: flex;
 }
 
 
-/* @media (max-width: 425px) { For large screens
-  Your CSS here
-
-  .imgBanner{
-
-  height: 75px;
-
-  }
-} */
-
-
-@media (max-width: 430px) { /* For large screens */
-  /* Your CSS here */
+@media (max-width: 430px) { 
 
   .imgBanner{
 
@@ -160,8 +154,7 @@ display: flex;
   }
 }
 
-@media (max-width: 320px) { /* For large screens */
-  /* Your CSS here */
+@media (max-width: 320px) { 
 
   .imgBanner{
 
@@ -185,8 +178,7 @@ display: flex;
 
   
 }
-@media (max-width: 900px) { /* For large screens */
-  /* Your CSS here */
+@media (max-width: 900px) { 
 
   .sec06{
 
@@ -203,8 +195,6 @@ display: flex;
   height: 280px;
 
 }
-
-
 
 
 .img02se06{
@@ -233,8 +223,6 @@ display: flex;
 .footerLink:hover{
   text-decoration: underline;
 }
-
-
 
 
 
